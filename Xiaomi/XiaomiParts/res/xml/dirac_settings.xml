@@ -18,6 +18,7 @@
 
     <ListPreference
         android:key="dirac_headset_pref"
+        android:icon="@drawable/ic_headset"
         android:entries="@array/dirac_headset_pref_entries"
         android:entryValues="@array/dirac_headset_pref_values"
         android:defaultValue="0"
@@ -26,6 +27,7 @@
 
     <ListPreference
         android:key="dirac_preset_pref"
+        android:icon="@drawable/ic_equalizer"
         android:entries="@array/dirac_preset_pref_entries"
         android:entryValues="@array/dirac_preset_pref_values"
         android:defaultValue="0,0,0,0,0,0,0"
